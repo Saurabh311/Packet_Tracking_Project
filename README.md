@@ -1,3 +1,9 @@
+DHL Tracking Project
+
+Introduction : Purpose of this project is to provide the user interface where user can track and get the status of his packets online by using the Id number. Id number generally generate when we book the packet for delivery. It will provide the status of packets by working on the JSON data file. JSON file cantains the base data of users and their packets.
+In this project we fetch the the data from API here is updated data saved, then use that data to provide the status and detail of the users packets.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
