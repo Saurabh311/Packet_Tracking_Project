@@ -1,0 +1,32 @@
+.footer-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    font-size: x-large;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color:rgb(202, 199, 0);
+    min-height:10px;
+    width:auto;
+    position:sticky;
+    border: solid 5px red;   
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.footer a{
+    color: rgb(230, 71, 97);  
+}
+.footer p{
+    font-weight: bolder;
+    color: #165f57;
+    margin-bottom: 5px;
+  margin-left: 35%;
+  margin-right: 50%;
+  width: 50%;
+}
