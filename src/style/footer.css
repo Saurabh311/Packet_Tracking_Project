@@ -9,13 +9,13 @@
 .footer {
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 5px;
     margin-bottom: 0;
     background-color:rgb(202, 199, 0);
     min-height:10px;
     width:auto;
     position:sticky;
-    border: solid 5px red;   
+    border: solid 5px brown;   
     border-radius: 15px;
     margin-top: 10px;
 }
@@ -29,4 +29,31 @@
   margin-left: 35%;
   margin-right: 50%;
   width: 50%;
+}
+
+@media (max-width: 750px){
+    .footer {
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    margin-bottom: 0;
+    background-color:rgb(202, 199, 0);
+    min-height:10px;
+    width:auto;
+    position:sticky;
+    border: solid 5px brown;   
+    border-radius: 15px;
+    margin:5px;
+    }
+}
+@media (max-width: 750px){
+    .footer-right{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        align-items: center;
+        margin: 5px;
+        font-size: large;
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
 }
