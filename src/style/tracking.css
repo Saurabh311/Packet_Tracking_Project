@@ -1,0 +1,41 @@
+.Tracking-Page {
+    Color:  rgb(199, 6, 6);
+    font-style: oblique;
+    font-weight: bolder;
+    margin-bottom: 220px;
+    margin-top: 50px;
+}
+
+.result {    
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 5px rgb(202, 199, 0);
+    background-color: aquamarine;
+    color: blue;        
+    text-align: left;
+}
+@media (max-width: 750px){
+    .Tracking-Page {
+        Color:  rgb(199, 6, 6);
+        font-style: oblique;
+        font-size: small;
+        margin-bottom: 220px;
+    }
+}
+
+@media (max-width: 750px){
+    .result {    
+        margin-left: 15px;
+        margin-right: 15px;  
+              
+        padding: 15px;
+        border-radius: 10px;
+        border: solid 3px rgb(199, 6, 6);
+        background-color: rgb(202, 199, 0);
+        color: blue;        
+        text-align: left;
+    }
+}

@@ -1,0 +1,78 @@
+.search {
+
+
+}
+.serach-form {
+    color: rgb(6, 95, 83);
+    margin: 100px;
+    font-size: xx-large;
+    border: solid 10px rgb(219, 181, 9);
+    border-radius: 10px;
+    text-align: left;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: aquamarine;
+    margin-bottom: 220px;
+    
+  }
+  .search-bar  {
+    color: blue;
+    font-size: x-large;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+  .button {
+      color: white;
+      font-size: x-large;      
+      padding: 5px;
+      margin-top: 10px;
+      background-color: rgb(233, 163, 12);
+      border-radius: 10px;
+  }
+
+  .serach .button :hover {
+      font-size: 150%;
+  }
+  @media (max-width: 750px){
+    .serach-form {
+        margin-left: 5px;
+        margin-right: 5px;
+        color: rgb(199, 6, 6);        
+        font-size: large;
+        border: solid 2px rgb(92, 76, 3);
+        border-radius: 5px;
+        text-align: left;
+        font-style: oblique;
+        font-weight: bold;
+        padding: 10px;
+        background-color: rgb(202, 199, 0);
+        margin-bottom: 220px;
+        
+      }
+}
+@media (max-width: 750px){
+    .search-bar  {
+        color: blue;
+        width: 85%;
+        font-size: large;        
+        border-radius: 5%;
+        margin-bottom: 10px;
+      }
+}
+@media (max-width: 750px){
+    .button {
+        color: white;
+        font-size: large;      
+        padding: 5px;        
+        background-color: rgb(199, 6, 6);
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+        
+        
+    }
+}
+
+  

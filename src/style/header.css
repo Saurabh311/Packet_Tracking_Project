@@ -1,0 +1,61 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(202, 199, 0);
+    text-align: left;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    border: solid 4px chocolate;
+    border-radius: 10px;
+}
+
+.header .App-logo {
+    color: palevioletred;
+    height: 40vmin;
+    pointer-events: none;
+    width: 150px;
+    height: 150px;
+  }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 5s alternate-reverse;
+    }
+  }
+.header .line {
+    font-size: xx-large;
+    color: rgb(199, 6, 6);
+}  
+@media (max-width: 750px){
+    .header .App-logo {     
+        margin-top: 20px;
+        height: 40vmin;
+        pointer-events: none;
+        width: 100px;
+        height: 100px; 
+    }
+}
+@media (max-width: 750px){
+    .header .line {        
+        font-size: x-large;
+        padding: 20px;
+        text-align: center;
+        color: rgb(199, 6, 6);
+    }  
+}
+
+@media (max-width: 750px){
+    .header {       
+        background-color: rgb(202, 199, 0);
+        text-align: left;
+        font-style: oblique;
+        font-weight: bolder;
+        margin: 10px;
+        padding: 10px;  
+            
+    
+    } 
+}
+
