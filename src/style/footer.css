@@ -17,10 +17,10 @@
     position:sticky;
     border: solid 5px brown;   
     border-radius: 15px;
-    margin-top: 10px;
+    margin: 10px;
 }
 .footer a{
-    color: rgb(230, 71, 97);  
+    color: rgb(199, 6, 6);  
 }
 .footer p{
     font-weight: bolder;

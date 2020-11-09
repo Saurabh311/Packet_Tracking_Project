@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr 1fr;
     background-color: rgb(202, 199, 0);
     text-align: left;
     font-style: oblique;
@@ -12,12 +12,16 @@
 }
 
 .header .App-logo {
-    color: palevioletred;
     height: 40vmin;
     pointer-events: none;
     width: 150px;
     height: 150px;
   }
+.header .nav-link {
+    margin-top: 30px;
+    list-style-type: none;
+           
+}  
   
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -26,8 +30,15 @@
   }
 .header .line {
     font-size: xx-large;
-    color: rgb(199, 6, 6);
+    color: rgb(199, 6, 6);    
 }  
+
+.header a {
+    font-size: xx-large;
+    color: rgb(199, 6, 6); 
+
+}
+
 @media (max-width: 750px){
     .header .App-logo {     
         margin-top: 20px;
@@ -40,15 +51,22 @@
 @media (max-width: 750px){
     .header .line {        
         font-size: x-large;
-        padding: 20px;
         text-align: center;
         color: rgb(199, 6, 6);
     }  
+}
+@media (max-width: 750px){
+    .header a {
+        font-size: x-large;
+        color: rgb(199, 6, 6); 
+    
+    }
 }
 
 @media (max-width: 750px){
     .header {       
         background-color: rgb(202, 199, 0);
+        grid-template-columns: 1fr 4fr;
         text-align: left;
         font-style: oblique;
         font-weight: bolder;
@@ -57,5 +75,13 @@
             
     
     } 
+}
+@media (max-width: 750px){
+    .header .nav-link {
+        list-style-type: none;
+        margin-left: 70px;
+        margin-top: 0;
+        
+    }
 }
 
